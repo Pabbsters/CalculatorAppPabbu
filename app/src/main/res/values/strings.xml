@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CalculatorAppPabbu</string>
+    <string name="Answer">Answer</string>
+    <string name="Calculator_App">Calculator App</string>
+    <string name="Number">Enter First Number</string>
+
 </resources>

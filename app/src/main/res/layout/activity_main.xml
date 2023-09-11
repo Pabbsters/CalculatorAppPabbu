@@ -15,14 +15,14 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Answer"
+        android:text="@string/Answer"
         tools:layout_editor_absoluteX="90dp"
         tools:layout_editor_absoluteY="628dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calculator App"
+        android:text="@string/Calculator_App"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,11 +88,11 @@
         tools:layout_editor_absoluteY="439dp" />
 
     <Button
-        android:id="@+id/buttonsub"
-        style="@style/Widget.Material3.Button"
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="buttonsub"
+        android:text="/"
         android:textSize="34sp"
         tools:layout_editor_absoluteX="232dp"
         tools:layout_editor_absoluteY="448dp" />
