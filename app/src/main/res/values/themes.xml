@@ -28,4 +28,18 @@
         <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
         <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
     </style>
+<style name="RuthwikButtons" parent="Widget.AppCompat.Button">
+    <item name="android:padding">@dimen/padding</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginTop">@dimen/marginTop</item>
+    <item name="android:layout_marginStart">@dimen/marginSides</item>
+    <item name="android:layout_marginEnd">@dimen/marginSides</item>
+    <item name="backgroundTint">#FA00FA</item>
+
+</style>
+
+    <dimen name="marginTop">50</dimen>
+    <dimen name="padding">15</dimen>
+    <dimen name="marginSides">10</dimen>
 </resources>
