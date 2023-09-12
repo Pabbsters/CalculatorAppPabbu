@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="textViewWidth">200dp</dimen>
     <dimen name="textViewHeight">400dp</dimen>
@@ -8,8 +7,8 @@
     <dimen name="screenMargin">15dp</dimen>
     <dimen name="toPadding">10dp</dimen>
     <dimen name="editTextPadding">10dp</dimen>
-    <dimen name="marginTop">50</dimen>
-    <dimen name="padding">15</dimen>
-    <dimen name="marginSides">10</dimen>
+    <dimen name="marginTop">50dp</dimen>
+    <dimen name="marginSides">10dp</dimen>
+    <dimen name="padding">15dp</dimen>
 
 </resources>

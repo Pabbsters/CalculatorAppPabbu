@@ -35,11 +35,9 @@
     <item name="android:layout_marginTop">@dimen/marginTop</item>
     <item name="android:layout_marginStart">@dimen/marginSides</item>
     <item name="android:layout_marginEnd">@dimen/marginSides</item>
-    <item name="backgroundTint">#FA00FA</item>
+    <item name="backgroundTint">#00ABFA</item>
 
 </style>
 
-    <dimen name="marginTop">50</dimen>
-    <dimen name="padding">15</dimen>
-    <dimen name="marginSides">10</dimen>
+
 </resources>
