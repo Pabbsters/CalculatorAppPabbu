@@ -39,7 +39,5 @@
 
 </style>
 
-    <dimen name="marginTop">50</dimen>
-    <dimen name="padding">15</dimen>
-    <dimen name="marginSides">10</dimen>
+
 </resources>

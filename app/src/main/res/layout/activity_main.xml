@@ -17,12 +17,15 @@
         android:inputType="text"
         android:text="@string/Answer"
         tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="628dp" />
+        tools:layout_editor_absoluteY="628dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/viewResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Calculator_App"
+        android:textStyle="bold"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,26 +35,29 @@
         app:layout_constraintVertical_bias="0.063" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="number"
+        android:hint="Enter first number"
         android:text="@string/Number"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="153dp" />
+        tools:layout_editor_absoluteY="153dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/enteredName"
+        android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Enter Name"
+        android:hint="Enter Second Number"
 
-        android:inputType="text"
+        android:inputType="number"
         android:text="@string/Number2"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="235dp" />
+        tools:layout_editor_absoluteY="235dp"
+        tools:ignore="MissingConstraints" />
 
 
     <Button
@@ -61,12 +67,14 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/md_theme_dark_onBackground"
         android:padding="@dimen/marginSides"
+        android:onClick="methodSum"
         android:text="+"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="34sp"
         app:rippleColor="#00FFFFFF"
         tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="321dp" />
+        tools:layout_editor_absoluteY="321dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttonminus"
@@ -78,7 +86,8 @@
         android:padding="@dimen/marginSides"
         android:textSize="34sp"
         tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="320dp" />
+        tools:layout_editor_absoluteY="320dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttonmul"
@@ -90,7 +99,8 @@
         android:padding="@dimen/marginSides"
         android:textSize="34sp"
         tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="439dp" />
+        tools:layout_editor_absoluteY="439dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttondiv"
@@ -101,6 +111,7 @@
         android:padding="@dimen/marginSides"
         android:textSize="34sp"
         tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="439dp" />
+        tools:layout_editor_absoluteY="439dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
