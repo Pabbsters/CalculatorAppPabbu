@@ -2,7 +2,7 @@
     <string name="app_name">"My App"</string>
     <string name="Answer">Answer</string>
     <string name="Calculator_App">Calculator App</string>
-    <string name="Number">Enter First Number</string>
+    <string name="Number1">Enter First Number</string>
     <string name="Number2">Enter Second Number</string>
 
 </resources>
