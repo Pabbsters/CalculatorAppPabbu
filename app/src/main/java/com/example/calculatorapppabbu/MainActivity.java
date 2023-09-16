@@ -16,7 +16,7 @@ import android.widget.EditText;
 
 
 
-public class MainActivity extends AppCompatActivity{ //implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity{
     public EditText edittxt1, edittxt2;
     public Button addbutton,subbutton,mulbutton, divbutton;
     public TextView textresult;
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity{ //implements View.OnClickLi
         setContentView(R.layout.activity_main);
 
         edittxt1= (EditText)findViewById(R.id.editText1);
-        edittxt2=findViewById(R.id.editText2);
+        edittxt2= (EditText)findViewById(R.id.editText2);
         addbutton=(Button)findViewById(R.id.buttonplus);
         subbutton=(Button)findViewById(R.id.buttonminus);
         mulbutton=(Button)findViewById(R.id.buttonmul);
