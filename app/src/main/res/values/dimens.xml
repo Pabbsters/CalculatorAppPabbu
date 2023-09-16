@@ -1,4 +1,6 @@
 <resources>
+    <dimen name="buttonWidth">95dp</dimen>
+    <dimen name="buttonHeight">75dp</dimen>
     <dimen name="textViewWidth">200dp</dimen>
     <dimen name="textViewHeight">400dp</dimen>
     <dimen name="bottomMargin">20dp</dimen>

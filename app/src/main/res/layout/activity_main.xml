@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@color/md_theme_dark_onPrimaryContainer"
+    android:background="@color/md_theme_dark_onPrimaryContainer"
     tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/viewResult"
-        android:layout_width="200dp"
+        android:layout_width="@dimen/textViewWidth"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/Answer"
@@ -83,8 +83,8 @@
     <Button
         android:id="@+id/buttonplus"
         style="@style/RuthwikButtons"
-        android:layout_width="95dp"
-        android:layout_height="75dp"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
         android:backgroundTint="@color/md_theme_dark_onBackground"
         android:padding="@dimen/marginSides"
         android:text="+"
@@ -102,8 +102,8 @@
     <Button
         android:id="@+id/buttonminus"
         style="@style/RuthwikButtons"
-        android:layout_width="95dp"
-        android:layout_height="75dp"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
         android:backgroundTint="@color/cardview_dark_background"
         android:padding="@dimen/marginSides"
         android:text="−"
@@ -119,8 +119,8 @@
     <Button
         android:id="@+id/buttonmul"
         style="@style/RuthwikButtons"
-        android:layout_width="95dp"
-        android:layout_height="75dp"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height= "@dimen/buttonHeight"
         android:backgroundTint="@color/md_theme_dark_inversePrimary"
         android:padding="@dimen/marginSides"
         android:text="×"
@@ -136,8 +136,8 @@
     <Button
         android:id="@+id/buttondiv"
         style="@style/RuthwikButtons"
-        android:layout_width="95dp"
-        android:layout_height="75dp"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
         android:padding="@dimen/marginSides"
         android:text="÷"
         android:textSize="34sp"
